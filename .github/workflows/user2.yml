@@ -16,7 +16,7 @@ jobs:
         run: echo Hello, world!
 
   docker:
-    uses: manoharmedapu/reusabletem/.github/workflows/user.yml@main
+    uses: manoharmedapu/reusabletem/.github/workflows/user4.yml@main
     with:
       image_name: my-awesome-app
       tag: $GITHUB_RUN_NUMBER
