@@ -1,2 +1,2 @@
-FROM apline
+FROM alpine
 RUN touch sample.txt
